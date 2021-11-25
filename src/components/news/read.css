@@ -1,0 +1,6 @@
+.news-img-read img{
+    display: flex;
+    justify-content: center;
+    width: 872px;
+    height: 507px;
+}

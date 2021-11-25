@@ -1,0 +1,22 @@
+.hebron-needs-join-page-second-button-wrapper{
+    position: relative;
+}
+.hebron-needs-join-page-second-button-ul-indent{
+    position: absolute;
+    left: -15px;
+    color: orange;
+    font-weight: 600;
+}
+.hebron-needs-join-page-second-button-wrapper .title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.hebron-needs-join-page-second-button-wrapper button{
+    padding: 5px 30px 5px 30px;
+    border-style: solid;
+    border-color: orange;
+    border-width: 2px;
+}
+.hebron-needs-join-page-second-button-wrapper button:hover{
+    background-color: orange;
+}

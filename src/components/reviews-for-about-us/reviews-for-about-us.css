@@ -1,0 +1,107 @@
+.reviews-for-about-us-wrapper{
+    height: 230px;
+    background-color: #F2F2F2;
+    position: relative;
+}
+.reviews-main-block-background-color{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    opacity: 50%;
+    top: -10%;
+}
+.reviews-main-block-border{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    border-color: orange;
+    border-width: 1px;
+    border-style: solid;
+    top: -10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-main-comas1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top:-18%;
+    left: 51%;
+
+}
+.reviews-main-comas2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top:-18%;
+    left: 48%;
+
+}
+.reviews-main-comas1 img{
+    width: 80%;
+}
+.reviews-main-comas2 img{
+    width: 80%;
+}
+.reviews-about-us-button-wrapper1{
+    position: absolute;
+    width:3%;
+    height: 16%;
+    border-width: 1px;
+    border-left-width: 0px;
+    top:43%;
+    border-style: solid;
+    border-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-about-us-button-wrapper1 .reviews-about-us-svg path{
+    stroke: orange;
+}
+.reviews-about-us-button-wrapper2{
+    position: absolute;
+    width:3%;
+    height: 16%;
+    border-width: 1px;
+    border-right-width: 0px;
+    top:43%;
+    right: 0%;
+    border-style: solid;
+    border-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-about-us-button-wrapper2 .reviews-about-us-svg path{
+    stroke:orange;
+}
+.quote-and-name-about-us{
+    width: 70%;
+    align-self: center;
+    top:10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.quote-and-name-about-us div{
+    font-size: 12px;
+}
+.quote-and-name-about-us span{
+    font-size: 25px;
+}
+.quote-and-name-about-us-img-wrapper{
+    width: 12%;
+    height: 30%;
+}
+.quote-and-name-about-us-img-wrapper img{
+    width: 100%;
+}

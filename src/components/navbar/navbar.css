@@ -1,0 +1,91 @@
+.navbar-wrapper{
+    
+    position: sticky;
+    top:0px;
+    height: 10vh;
+    border-style: solid;
+    border-color: rgb(221, 214, 214);
+    border-width: 0px 0px 1px 0px;
+    background-color: white;
+    z-index: 99;
+    
+}
+
+.logo-in-navbar-wrapper{
+    width: 100%;
+    height: 100%;
+    color:black;
+
+}
+.logo-in-navbar-link-wrapper{
+    text-decoration: none;
+}
+.logo-in-navbar-link-wrapper:hover{
+    text-decoration: none;
+}
+.unstyled-link-navbar{
+    text-decoration: none;
+}
+.unstyled-link-navbar:hover{
+    text-decoration: none;
+}
+
+
+.ul-navbar{
+    display:flex;
+    flex-direction: row;
+    font-size: .65rem;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-self: flex-end;
+    align-items: center;
+}
+.li-selected-navbar{
+    color: orange;
+    font-weight: 600;
+
+}
+.li-not-selected-navbar{
+    color:black;
+}
+.buttons-on-navbar-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.successful-stories-navbar-button{
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: orange;
+    height: 50%;
+    width: 35%;
+    align-self: center;
+    font-size: .75rem;
+}
+.support-button-navbar{
+    background-color: orange;
+    color:white;
+    height: 50%;
+    align-self: center;
+    width: 30%;
+    border-width: 0px;
+    font-size: .75rem;
+}
+.language-switcher-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    font-size: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.selected-language-navbar{
+    color:orange;
+}
+.not-selected-language-navbar{
+    color: black;
+    opacity: 40%;
+}

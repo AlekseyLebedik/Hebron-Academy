@@ -1,0 +1,203 @@
+.row{
+    width:100%;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.first-block-wrapper{
+    width:100%;
+    height: 600px;
+    position: relative;
+}
+.about-us-head-img{
+    width: 100%;
+    height: 100%;
+
+}
+.about-us-head-img img{
+    width: 100%;
+    height: 100%;
+}
+.about-us-wrapper{
+    margin-bottom: 100px;
+}
+
+.header-info-wrapper{
+    position: absolute;
+    top: 13%;
+    left: 8.3%;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.orange-block-header{
+    background-color: orange;
+    position: absolute;
+    width: 100%;
+    height: 13.5%;
+}
+.empty-block-in-header{
+    height: 13.5%;
+    width: 100%;
+}
+.about-us-header-title{
+    position: absolute;
+    color: white;
+    top:17.5%;
+    line-height: 0;
+    left: 10%;
+    font-size: 95px;
+    font-weight: 900;
+
+}
+.hebron-black-header-title{
+    width: 70%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.hebron-red-header-title{
+    width: 70%;
+    font-size: 30px;
+    color: red;
+    line-height: 1;
+    font-weight: 600;
+
+}
+.hebron-maininfo-header{
+    width: 80%;
+    font-size: 12px;
+}
+.second-block-wrapper{
+    position: relative;
+    height: 200px;
+}
+.grey-subblock{
+    background-color: #F0F0F0;
+    height: 60%;
+    position: absolute;
+}
+.abs-block{
+    position: absolute;
+}
+.second-block-info-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+
+}
+.empty-space-in-second-info-block{
+    width: 8.3%;
+    height: 100%;
+}
+.statut{
+    color:orange;
+    font-size: 40px;
+    line-height: 0;
+    font-weight: 600;
+    height: 70%;
+    width: 23%;
+    letter-spacing:10px;
+
+}
+.statut-item-wrapper{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.statut-item{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.number-and-title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+}
+.number{
+    font-size: 20px;
+    opacity: 50%;
+}
+.header-logo{
+    width:20%;
+    height: 20%;
+}
+.header-rectangle{
+    width: 25%;
+    height: 3px;
+    background-color: orangered;
+    margin-left: 5px;
+}
+.header-text{
+    display: none;
+    width: 100%;
+    height: 60%;
+    font-size: 12px;
+}
+.header-number-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-title{
+    font-size: 20px;
+}
+.header-logo-svg path{
+    fill:#FD7823;
+}
+.statut-item-wrapper:hover {
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px rgb(238, 236, 236);
+}
+.statut-item-wrapper:hover .header-text{
+    display:inherit;
+}
+.statut-item-wrapper:hover .header-title{
+    color:orange;
+}
+.statut-item-wrapper:hover .header-logo-svg path{
+    fill: black;
+}
+.third-block-wrapper{
+    height: 100px;
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+.third-block-large-text{
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    justify-content: center;
+}
+.third-block-smaller-text{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.forth-block-wrapper{
+    height: 300px;
+}
+.title-block-for-about-us-page{
+    height: 5em;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}

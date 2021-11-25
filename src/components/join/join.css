@@ -1,0 +1,171 @@
+.join{
+    display: flex;
+    flex-direction: column;
+}
+
+.join-img-a{
+    display: flex;
+    
+}
+
+.group-img{
+    margin-left: 6px;
+}
+
+.group-img img{
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: auto;
+    margin-right: 996px;
+}
+
+.joins-img{
+    background-color: rgba(253, 120, 35, 1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 37px;
+    right: 165px;
+    width: 100%;
+    height: 70px;
+    margin-left: -30%;
+}
+
+
+
+.join-img-join img{
+    position: relative;
+    width: 75%;
+    height: auto;
+    right: 8%;
+    top: 10%;
+}
+
+
+.orange-block-a{
+    position: absolute;
+    width: 30%;
+    height: 78%;
+    background-color: rgba(253, 120, 35, 1);
+    top: 3%;
+    left: 0;
+}
+
+
+.join_us-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 70%;
+}
+
+.join_us-img img{
+    width: 100%;
+    height: auto;
+}
+
+.join-img-text-a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:10%;
+    margin-left: 50%;
+    font-size:60%;
+}
+
+.join-img-text-a h4{
+    color: rgba(253, 120, 35, 1);
+}
+
+.join-img-b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.join-img-text-b{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10%; 
+    margin-left: 10%; 
+    font-size: 70%;  
+}
+
+.hands-img img{
+    position: relative;
+    margin-left: 20%;
+    width: 84%;
+    height: auto;
+}
+
+.orange-block-b{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    background-color: rgba(253, 120, 35, 1);
+    margin-top: -2%;
+    right: 0;
+
+}
+
+.join-img-d{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.join-img-people{
+    margin-left: 10%;
+}
+
+.join-img-people img{
+    width: 80%;
+    height: 100%;
+    right: 10%;
+}
+
+.join-text-d{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px    ;
+    margin-left: 10%;
+    font-size: 80%;
+}
+
+.join-text-d h4{
+    color:rgba(253, 120, 35, 1);
+}
+
+.join-img-i{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.join-img-item img{
+    width: 80%;
+    height: 70%;
+}
+
+.join-text-i{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 123px;
+    margin-right: 100px;
+}
+
+.join-text-i h4{
+    color:rgba(253, 120, 35, 1);
+}
+
+.text-btn-a{
+    color: rgba(253, 120, 35, 1);
+}
+

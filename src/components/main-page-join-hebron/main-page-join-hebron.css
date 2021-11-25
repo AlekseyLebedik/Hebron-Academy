@@ -1,0 +1,70 @@
+.main-page-join-hebron-wrapper{
+    width:100%;
+    height: 500px;
+    border-style: solid;
+    border-color: #D1D1D1;
+    border-width: 0px 0px 2px 0px;
+}
+.main-page-join-hebron-content-right{
+
+    width: 100%;
+    height: 100%;
+}
+.main-page-join-hebron-content-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-page-join-hebron-content-left{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-page-join-hebron-content-left-wrapper{
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.red-title{
+    color: orange;
+    font-size: 15px;
+}
+.text-under-title{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 20px;
+}
+.form-style{
+    display: flex;
+    flex-direction: column;
+    height:80%;
+    justify-content: space-around;
+    font-size: 16px;
+    
+}
+.form-style span{
+    opacity: 40%;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.send-form-button{
+    width: 30%;
+    justify-self:flex-end;
+    align-self: flex-end;
+    color: white;
+    background-color: orange;
+    border-style: solid;
+    border-color: orange;
+}
+.textarea-style{
+    height: 25%;
+
+}

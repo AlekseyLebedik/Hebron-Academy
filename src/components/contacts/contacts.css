@@ -1,0 +1,46 @@
+.contacts{
+    background-color: rgba(240, 240, 240, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    width: 100%;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.data h4{
+    color: rgba(253, 120, 35, 1);
+}
+
+.form-label{
+    color: grey;
+    margin-top: 29px;
+}
+
+.data input{
+    width: 80%;
+}
+
+.data .input:last-child{
+    margin-top: 44px;
+}
+
+.btn-send{
+    background-color:rgba(253, 120, 35, 1);
+    color: white;
+    width: 180px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+}
+
+.contacts img{
+    width: 100%;
+    
+}

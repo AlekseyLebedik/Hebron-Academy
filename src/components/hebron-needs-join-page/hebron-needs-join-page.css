@@ -1,0 +1,98 @@
+.hebron-needs-buttons-wrapper{
+    height: 600px;
+   
+}
+.hebron-needs-buttons-main-info-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hebron-needs-buttons-itself-wrapper{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+.hebron-needs-button-content-wrapper{
+    height: 100%;
+    width:55%;
+}
+.hebron-needs-button-wrapper{
+    border-width: 0px;
+    border-top-width: 1px;
+    border-color: #D1D1D1;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.hebron-needs-button-first-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.hebron-needs-number-arrow-title-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 60%;
+
+}
+.hebron-needs-number-and-arrow{
+    display: flex;
+    flex-direction: row;
+}
+.hebron-needs-number-and-arrow span{
+    color: #D1D1D1;
+    font-weight: 600;
+}
+.hebron-needs-arrow{
+    height: 2px;
+    width: 10%;
+    background-color: orange;
+    align-self: center;
+    margin-left: 5px;
+}
+.hebron-needs-logo{
+    padding: 5px;
+    align-self: center;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.hebron-needs-logo path{
+    fill:#D1D1D1;
+}
+.hebron-needs-logo-selected{
+    padding: 5px;
+    align-self: center;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.hebron-needs-logo-selected path{
+    fill: #FD7823;
+}
+.hebron-needs-title{
+    font-weight: 600;
+    color: #D1D1D1;
+    line-height: 1;
+}
+.hebron-needs-title-selected{
+    font-weight: 600;
+    color: black;
+    line-height: 1;
+}
+.hebron-needs-join-page-forth-button-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.hebron-needs-join-page-forth-button-wrapper .title{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.hebron-needs-join-page-forth-button-wrapper .content{
+    margin-top: 5px;
+    width: 50%;
+    font-size: 13px;
+}

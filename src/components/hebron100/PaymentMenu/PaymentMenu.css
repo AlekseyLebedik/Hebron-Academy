@@ -1,0 +1,66 @@
+
+
+.Payment{
+    color:#FFFFFF;
+    position: relative;
+    height:1400px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Payment-about{
+    margin-top: 159px;
+    height: 356px;
+    width: 100%;
+    background-color: #FD7823;
+}
+
+
+.Payment-about__title{
+    margin-top: 37px;
+    margin-left: 205px;
+    font-size:40px;
+    line-height:41,36px;
+    font-weight:500;
+    margin-bottom: 20px;
+}
+
+.Payment-about__title span{
+    font-weight: 800;
+}
+
+
+.Payment-about__description{
+    margin-left:205px;
+    width: 500px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+.Payment-requisites{
+    position:absolute;
+    background-color: #FFFFFF;
+    right:124px;
+    min-height:76%;
+    width: 38%;
+    top: 85px;
+    box-shadow: 0px 4px 12px rgba(62, 98, 124, 0.16);
+    z-index: 2;
+}
+
+.Payment-image{
+    margin-top: 80px;
+    margin-left:5%;
+    height: 68%;
+    width: 45%;
+    opacity:1;
+}
+
+
+.Payment-image2{
+    position:absolute;
+    left:50px;
+    width: 55%;
+    margin-top: 150px;
+}

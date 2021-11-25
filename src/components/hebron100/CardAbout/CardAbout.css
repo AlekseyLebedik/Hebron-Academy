@@ -1,0 +1,43 @@
+.About-card{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+}
+
+.About-card img{
+    width: 50%;
+}
+
+.card__text-heading{
+    color: #FD7823;
+    font-size:16px;
+    line-height:19.5px;
+}
+
+.card__text-title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height:44px;
+}
+
+.card__text-description{
+    font-size: 16px;
+    line-height:23px;
+    font-weight: 700;
+    color: #63626b;
+    width: 540px;
+}
+.card__text-description span{
+    font-weight: bold;
+    color:black;
+}
+
+.card__text{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    text-align:start;
+    justify-content:center;
+}

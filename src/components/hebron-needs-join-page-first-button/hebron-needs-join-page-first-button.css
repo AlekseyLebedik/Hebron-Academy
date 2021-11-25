@@ -1,0 +1,109 @@
+.credentials-input-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.credentials-text-block-wrapper{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: 45%;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    background-color:#FAFAFA;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E7E7E7;
+}
+
+.credentials-text-block-wrapper span{
+    padding-left: 5px;
+
+}
+.credentials-text-block-wrapper b{
+    padding-left: 5px;
+}
+.credentials-text-block-title{
+    font-weight: 900;
+    font-size: 1rem;
+}
+.orange-star{
+    color:orange;
+}
+.destination-text-in-credentials{
+    margin-left: 1px;
+}
+
+.semi-black-text-in-credentials{
+    margin-left: 10px;
+    opacity: 50%;
+    font-size: 0.85rem;
+}
+.credentials-regular-transactions-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.how-many-times-repeat{
+    display: flex;
+    flex-direction: column;
+
+}
+.how-many-times-repeat-wrapper{
+    width: 35%;
+}
+.select-how-many-times-wrapper{
+    width: 100%;
+    padding-left: 5px;
+}
+.is-regular-transaction-true-false{
+    margin-left: 10px;
+}
+.credentials-regular-transaction-wrapper{
+    align-self: center;
+}
+.credentials-visa-master-card-submit-wrapper{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+}
+
+.credentials-visa-master-card-img{
+    width: 10%;
+}
+.credentials-visa-master-card-submit-button-wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.credentials-visa-master-card-submit-button{
+    width: 50%;
+    background-color: orange;
+    border-width: 0px;
+    padding: 5px;
+    color: white;
+}
+.credentials-visa-master-card-submit-button:hover{
+    background-color: white;
+    color: black;
+}
+.horizontal-line-in-credentials{
+    width: 90%;
+    height: 1px;
+    background-color:#E7E7E7;
+}
+
+.credentials-contact-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px 5px 0px;
+}

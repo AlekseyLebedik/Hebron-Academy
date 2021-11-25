@@ -1,0 +1,116 @@
+.skypappers{
+    display: flex;
+    flex-direction: row;
+    height: 803px;
+}
+
+.skypappers img{
+    width: 60%;
+    height: 50%;
+    margin-top: 140px;
+    margin-left: 5%;
+}
+
+.text-c{
+    margin-top: 140px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-c h4{
+    color: rgba(253, 120, 35, 1);
+}
+
+.text-c-img{
+    display: flex;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+}
+
+.donait-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 400px;
+    margin-right: 210px;
+    width: 524px;
+    margin-left:50px;
+}
+
+
+.donait-text__element{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-c-img img{
+    width: 63px;
+    height: 57px;
+}
+
+.squar{
+    width: 15px;
+    height: 15px;
+    background-color:orange;
+}
+
+.logo-a{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+    cursor: default;
+}
+
+.logo-a-p{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin-left: 30px;
+}
+
+.logo-a-p h3{
+    margin-top: -10px;
+}
+
+.logo-b{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    cursor: default;
+}
+
+.logo-b-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 35px;
+}
+
+.logo-svg path{
+    fill:rgba(253, 120, 35, 1);
+}
+.logo-svg:hover path{
+    fill:gray;
+}
+
+.text-logo-a{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+}
+
+.text-logo-b{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3%;
+    font-size: 12px;
+}

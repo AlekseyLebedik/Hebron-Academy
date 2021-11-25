@@ -1,0 +1,29 @@
+.new-img img{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(253, 120, 35, 1);
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+.lin{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 3%;
+    margin-left: 13%;
+    color: rgba(209, 209, 209, 1);
+    border: none;
+    text-decoration: none;
+    display: flex;
+}
+
+
+.btn:hover{
+    color: rgba(253, 120, 35, 1);
+}
+
+.news-info{
+    display: flex;
+    flex-wrap: wrap;
+}

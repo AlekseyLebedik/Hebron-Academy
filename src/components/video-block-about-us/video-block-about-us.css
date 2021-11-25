@@ -1,0 +1,24 @@
+.video-block-about-us-wrapper{
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+}
+.video-block-about-us-orange-rectange{
+    position: absolute;
+    width: 38%;
+    height: 40%;
+    background-color: #FD7823;
+    right: -15px;
+    top: -15px;
+}
+.video-block-about-us-main-info{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.video-block-about-us-main-info img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
